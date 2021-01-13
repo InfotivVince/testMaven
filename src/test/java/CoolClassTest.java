@@ -7,4 +7,10 @@ public class CoolClassTest {
         CoolClass c1 = new CoolClass();
         Assertions.assertTrue(c1.generateTrue());
     }
+
+    @Test
+    void testGenerateFalse() {
+        CoolClass c1 = new CoolClass();
+        Assertions.assertFalse(c1.generateFalse());
+    }
 }
